@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tadesse K. Bahiru - PhD Student</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* slate-50 */
+            color: #334155; /* slate-700 */
+        }
+        h1, h2, h3 {
+            color: #0f172a; /* slate-900 */
+        }
+        a {
+            color: #0ea5e9; /* sky-500 */
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #0284c7; /* sky-600 */
+        }
+        .publication-item {
+            border-left: 3px solid #e2e8f0; /* slate-200 */
+            padding-left: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <div class="max-w-4xl mx-auto p-6 md:p-8 lg:p-12">
+        <main class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Left Sidebar -->
+            <aside class="md:col-span-1">
+                <div class="sticky top-8">
+                    <img src="https://placehold.co/400x400/e2e8f0/334155?text=Your+Photo" alt="Tadesse K. Bahiru" class="rounded-full w-32 h-32 md:w-40 md:h-40 mx-auto md:mx-0 mb-4">
+                    <h1 class="text-3xl font-bold text-center md:text-left">Tadesse K. Bahiru</h1>
+                    <p class="text-slate-500 text-center md:text-left">PhD Student in Computer Science</p>
+                    <p class="text-slate-500 text-center md:text-left mb-6">University of Houston</p>
+                    
+                    <div class="flex flex-col space-y-3">
+                        <a href="mailto:tbahiru@central.uh.edu" class="flex items-center space-x-2 hover:text-sky-600">
+                            <i data-lucide="mail" class="w-5 h-5"></i>
+                            <span>Email</span>
+                        </a>
+                        <a href="TKB_Resume.pdf" target="_blank" class="flex items-center space-x-2 hover:text-sky-600">
+                            <i data-lucide="file-text" class="w-5 h-5"></i>
+                            <span>Download CV</span>
+                        </a>
+                         <a href="https://scholar.google.com/" target="_blank" class="flex items-center space-x-2 hover:text-sky-600">
+                            <i data-lucide="graduation-cap" class="w-5 h-5"></i>
+                            <span>Google Scholar</span>
+                        </a>
+                        <a href="https://github.com/your-username" target="_blank" class="flex items-center space-x-2 hover:text-sky-600">
+                            <i data-lucide="github" class="w-5 h-5"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://linkedin.com/in/your-profile" target="_blank" class="flex items-center space-x-2 hover:text-sky-600">
+                            <i data-lucide="linkedin" class="w-5 h-5"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Main Content -->
+            <section class="md:col-span-2">
+                <!-- About Section -->
+                <div id="about" class="mb-12">
+                    <h2 class="text-2xl font-bold border-b pb-2 mb-4">About Me</h2>
+                    <div class="space-y-4 text-slate-600 leading-relaxed">
+                        <p>
+                            I am a PhD student in Computer Science at the University of Houston, focused on Responsible and Ethical AI. My work involves building and evaluating frameworks that audit datasets and codebases for fairness, privacy, quality, and reproducibility.
+                        </p>
+                        <p>
+                           I am skilled in Python, Machine Learning, and navigating clinical data compliance. My goal is to contribute to creating more accountable and transparent AI systems.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Research Interests Section -->
+                <div id="research" class="mb-12">
+                    <h2 class="text-2xl font-bold border-b pb-2 mb-4">Research Interests</h2>
+                    <ul class="list-disc list-inside space-y-2 text-slate-600">
+                        <li>Responsible & Ethical AI</li>
+                        <li>AI Auditing Frameworks</li>
+                        <li>Fairness, Privacy, and Reproducibility</li>
+                        <li>Machine Learning</li>
+                        <li>Clinical Data Compliance</li>
+                    </ul>
+                </div>
+                
+                <!-- Publications Section -->
+                <div id="publications">
+                    <h2 class="text-2xl font-bold border-b pb-2 mb-4">Selected Publications</h2>
+                    <div class="space-y-6">
+                        <!-- Publication Item 1 -->
+                        <div class="publication-item">
+                            <h3 class="font-bold text-lg">Codecard: Leveraging LLMs to Evaluate AI Model Code Development with the System Card Framework</h3>
+                            <p class="text-slate-500"><strong>Tadesse K. Bahiru</strong> and Ioannis A. Kakadiaris</p>
+                            <p class="text-slate-500 italic">14th International Conference on Model and Data Engineering (MEDI 2025), Cairo, Egypt.</p>
+                            <a href="#" class="text-sm">[PDF]</a> <a href="#" class="text-sm">[Code]</a> <a href="#" class="text-sm">[BibTeX]</a>
+                        </div>
+                        <!-- Publication Item 2 -->
+                        <div class="publication-item">
+                            <h3 class="font-bold text-lg">Dataset Scorecard: A Comprehensive Assessment of Data Quality, Fairness, Privacy, and Compliance</h3>
+                            <p class="text-slate-500"><strong>Tadesse K. Bahiru</strong>, Carlos R. Ordonez, and Ioannis A. Kakadiaris</p>
+                            <p class="text-slate-500 italic">IEEE DSAA 2025, Birmingham, UK.</p>
+                            <a href="#" class="text-sm">[PDF]</a> <a href="#" class="text-sm">[Code]</a> <a href="#" class="text-sm">[BibTeX]</a>
+                        </div>
+                         <!-- Publication Item 3 -->
+                        <div class="publication-item">
+                             <h3 class="font-bold text-lg">Auditing and Mitigating Intersectional Bias in Gender Classification: A Data-Centric Approach</h3>
+                            <p class="text-slate-500"><strong>Tadesse K. Bahiru</strong>, Natnael T. Sinshaw, and Hailemariam M. Teshager</p>
+                            <p class="text-slate-500 italic">ICT4DA 2025, Bahir Dar, Ethiopia.</p>
+                            <a href="#" class="text-sm">[PDF]</a> <a href="#" class="text-sm">[Code]</a> <a href="#" class="text-sm">[BibTeX]</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer class="text-center mt-12 pt-6 border-t text-slate-500 text-sm">
+            <p>&copy; 2025 Tadesse K. Bahiru. Last updated: Oct 2025.</p>
+        </footer>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
+
